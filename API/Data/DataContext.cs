@@ -4,6 +4,7 @@ using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Threading.Tasks;
 using API.Entities;
+using API.DTOs;
 using Microsoft.EntityFrameworkCore;
 
 namespace API.Data;

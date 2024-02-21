@@ -36,9 +36,9 @@ public class UsersController : BaseApiController
     }
 
     // [HttpPost("{id}")]
-    // public ActionResult<AppUser> AddUser( int id, string name)
+    // public async Task<ActionResult<AppUser>> AddUser( string name, string password)
     // {
-    //     var user =
+    //     Register(name, password)
     // }
 
     // [HttpPost("{id}")]
@@ -46,5 +46,14 @@ public class UsersController : BaseApiController
     // {
     //     var user =
     // }
+
+    // [HttpDelete("{id}")]
+    // public async Task<ActionResult<AppUser>> DeleteUser( int id)
+    // {
+
+    //     var user = await _context.Users.Remove( id);
+    //     return user.SaveChangesAsync;
+    // }
+
 
 }
