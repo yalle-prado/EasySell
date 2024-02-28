@@ -21,7 +21,7 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
-              "src/favicon.ico",
+              "src/favicon.ico"
             ],
             "styles": [
               "./node_modules/ngx-bootstrap/datepicker/bs-datepicker.css",
@@ -59,12 +59,6 @@
           "defaultConfiguration": "production"
         },
         "serve": {
-          // "options":{
-          //   "ssl":true,
-          //   "sslCert": "./ssl/localhost.crt",
-          //   "sslKey": "./ssl/localhost.key"
-          // },
-
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
