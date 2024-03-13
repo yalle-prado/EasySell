@@ -1,0 +1,19 @@
+<div class="container mt-5">
+  <div *ngIf="!registerMode" style="text-align: center;">
+    <h1>֍ Look out your path ֍</h1>
+    <p class="lead"> This learn path offers a comprehensive introduction to onboarding roadmaps, essential for both new and experienced users of our onboarding roadmap app. </p>
+      <p class="lead"> Starting with fundamental concepts, users will progress through structured modules designed to enhance their understanding and proficiency in creating and executing effective onboarding roadmaps.!</p>
+    <div class="text-center">
+      <button (click)="registerToggle()" class="btn btn-primary btn-lg me-2">Register</button>
+      <button class="btn btn-primary btn-lg ">Learn more</button>
+    </div>
+
+  </div>
+  <div *ngIf="registerMode" class="container">
+    <div class="row justify-content-center">
+      <div class="col-4">
+        <app-register></app-register>
+      </div>
+    </div>
+  </div>
+</div>
